@@ -23,7 +23,7 @@
             <form action="./cadastro_concluido.html" class="formulario flex flex--coluna">
                 <fieldset>
                     <legend class="formulario__legenda">Basic informations</legend>
-                    <div class="input-container input-container--invalido">
+                    <div class="input-container">
                         <input name="nome" id="nome" class="input" type="text" placeholder="Name" data-tipo="nome" required>
                         <label class="input-label" for="nome">Name</label>
                         <span class="input-mensagem-erro">This field is not valid</span>
@@ -36,13 +36,13 @@
                 </fieldset>                
                 <fieldset>
                     <legend class="formulario__legenda">Company</legend>
-                    <div class="input-container input-container--invalido">
-                        <input name="Company name" id="company_name" class="input" type="text" placeholder="Company name" data-tipo="nome" required>
+                    <div class="input-container">
+                        <input name="Company name" id="company_name" class="input" type="text" placeholder="Company name" data-tipo="company_name" required>
                         <label class="input-label" for="Company name">Company name</label>
                         <span class="input-mensagem-erro">This field is not valid</span>
                     </div>
-                    <div class="input-container input-container--invalido">
-                        <input name="Company field" id="field" class="input"  type="text" placeholder="Company field" data-tipo="nome" required>
+                    <div class="input-container">
+                        <input name="Company field" id="field" class="input"  type="text" placeholder="Company field" data-tipo="company_field" required>
                         <label class="input-label" for="Company field">Company field</label>
                         <span class="input-mensagem-erro">This field is not valid</span>
                     </div>                    
@@ -53,19 +53,20 @@
                     </div>
                     <div class="input-container">
                         <input name="estado" id="estado" class="input" type="text" placeholder="Company state" data-tipo="estado" required>
-                        <label class="input-label" for="estado">Compnay state</label>
+                        <label class="input-label" for="estado">Company state</label>
                         <span class="input-mensagem-erro">This field is not valid</span>
                     </div>                    
                 </fieldset>  
                 <fieldset>
                     <legend class="formulario__legenda">Message</legend>
-                    <div class="input-container input-container--invalido">
-                        <input name="message" id="message" class="input" type="text" placeholder="Your message to me" data-tipo="nome" required>
-                        <label class="input-label" for="message">Message</label>
+                    <div class="input-container">
+                        <input name="message" id="message" class="input" type="text" placeholder="Your message to me" data-tipo="message" required>
+                        <label class="input-label" for="message">Tell me, how can I help you?
+                        </label>
                         <span class="input-mensagem-erro">This field is not valid</span>
                     </div>                                                        
                 </fieldset>  
-                <button class="botao">Enviar</a>
+                <button class="botao">Submit</a>
             </form>
         </section>
     </main>
