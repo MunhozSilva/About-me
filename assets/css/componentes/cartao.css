@@ -9,7 +9,25 @@
     margin-bottom: 1rem;
 }
 
+.cartao p {
+    line-height: 1.75rem;
+}
+
 .cartao__titulo {
     font-size: var(--fonte-tamanho-cartao-titulo);
     margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.cartao__list {
+	display: flex;
+	justify-content: space-evenly;
+
+	font-size: 1rem;
+	margin-top: 1.5rem;
+}
+
+.cartao__list li {
+    line-height: 1.75rem;
+    margin-bottom: 0.3rem;
 }
